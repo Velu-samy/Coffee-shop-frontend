@@ -16,7 +16,7 @@ function Singlesnacks() {
 
   useEffect(() => {
     axios
-      .get(`https://coffee-shop-backend-1-hm1j.onrender.com/Snacks/${id}`)
+      .get(`https://cofffeeshop.gamer.gd/api/Snacks/${id}`)
       .then((response) => {
         setProduct(response.data);
         setLoading(false);

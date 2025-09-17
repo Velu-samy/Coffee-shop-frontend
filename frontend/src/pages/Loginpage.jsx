@@ -14,7 +14,7 @@ function Loginpage() {
     setSuccess('');
 
     try {
-      const response = await axios.post('https://coffee-shop-backend-1-hm1j.onrender.com/api/login', {
+      const response = await axios.post('https://cofffeeshop.gamer.gd/api/login', {
         email,
         password,
       });
