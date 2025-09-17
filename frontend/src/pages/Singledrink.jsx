@@ -55,7 +55,7 @@ function Singledrink() {
           <div className="contents-container flex p-7 mt-10  gap-20 shadow-md justify-center items-center">
             <div className="img-container w-1/2 pl-20 p-20">
               <img
-                src={`https://coffee-shop-backend-1-hm1j.onrender.com/storage/${product.image}`}
+                src={`https://cofffeeshop.gamer.gd/storage/${product.image}`}
                 className="rounded-md"
                 alt={product.name}
               />
