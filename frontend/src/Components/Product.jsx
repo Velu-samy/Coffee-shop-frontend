@@ -15,7 +15,7 @@ const Product = () => {
   useEffect(() => {
     const fetchColdCoffee = async () => {
       try {
-        const res = await fetch("https://cofffeeshop.gamer.gd/api/coffees"); // Replace with your actual endpoint
+        const res = await fetch("https://coffee-shop-backend-1-hm1j.onrender.com/coffees"); // Replace with your actual endpoint
         const product = await res.json();
         setCoffee(product);
         console.log("Cold Coffee:", product);
@@ -32,7 +32,7 @@ const Product = () => {
   useEffect(() => {
     const fetchColdCoffee = async () => {
       try {
-        const res = await fetch("https://cofffeeshop.gamer.gd/api/Drink"); // Replace with your actual endpoint
+        const res = await fetch("https://coffee-shop-backend-1-hm1j.onrender.com/Drink"); // Replace with your actual endpoint
         const product = await res.json();
         setCoffees(product);
         console.log("Cold Coffee:", product);
@@ -48,7 +48,7 @@ const Product = () => {
     useEffect(() => {
     const fetchColdCoffee = async () => {
       try {
-        const res = await fetch("https://cofffeeshop.gamer.gd/api/Snacks"); // Replace with your actual endpoint
+        const res = await fetch("https://coffee-shop-backend-1-hm1j.onrender.com/Snacks"); // Replace with your actual endpoint
         const product = await res.json();
         setCoffeed(product);
         console.log("Cold Coffee:", product);
@@ -124,7 +124,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`hhttps://cofffeeshop.gamer.gd/storage/${product.image}`}
+                src={`https://coffee-shop-backend-1-hm1j.onrender.com/storage/${product.image}`}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
@@ -171,7 +171,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`https://cofffeeshop.gamer.gd/storage/${product.image}`}
+                src={`https://coffee-shop-backend-1-hm1j.onrender.com/storage/${product.image}`}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
@@ -218,7 +218,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`https://cofffeeshop.gamer.gd/storage/${product.image}`}
+                src={`https://coffee-shop-backend-1-hm1j.onrender.com/storage/${product.image}`}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 

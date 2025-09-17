@@ -1,4 +1,4 @@
-import img from '../assets/logo2.png';
+import img from '../data/logo2.png';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import axios from 'axios';

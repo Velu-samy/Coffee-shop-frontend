@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/reserve.png'
+import img from '../data/reserve.png'
 import {motion} from 'framer-motion'
 
 function Order(){

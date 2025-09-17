@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import img from '../assets/login.jpg';
+import img from '../data/login.jpg';
 
 function Loginpage() {
   const [email, setEmail] = useState('');
@@ -14,7 +14,7 @@ function Loginpage() {
     setSuccess('');
 
     try {
-      const response = await axios.post('https://cofffeeshop.gamer.gd/api/login', {
+      const response = await axios.post('https://coffee-shop-backend-1-hm1j.onrender.com/api/login', {
         email,
         password,
       });

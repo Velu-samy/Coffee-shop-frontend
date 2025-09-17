@@ -19,7 +19,7 @@ function SingleProductView() {
 
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`https://cofffeeshop.gamer.gd/api/coffees/${id}`);
+        const response = await axios.get(`https://coffee-shop-backend-1-hm1j.onrender.com/coffees/${id}`);
         setProduct(response.data);
       } catch (err) {
         setError('Failed to fetch product');

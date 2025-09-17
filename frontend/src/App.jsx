@@ -8,7 +8,7 @@ import Product from './Components/Product';
 import Order from './Components/Order';
 import Feedback from './Components/Feedback';
 import Footer from './Components/Footer';
-import beans from '../src/assets/bean.png';
+import beans from '../src/data/bean.png';
 import About from './pages/About'
 import Singleproductview from './pages/Singleproductview';
 import Contact from './Components/Contact';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img from '../assets/contact.jpg';
+import img from '../data/contact.jpg';
 import Navbar from './Navabr';
 import Footer from './Footer';
 import { motion } from 'framer-motion';
@@ -25,7 +25,7 @@ const Contact = () => {
     try {
       const token = localStorage.getItem('authToken');
 
-      const res = await axios.post('https://cofffeeshop.gamer.gd/api/contact', form, {
+      const res = await axios.post('https://coffee-shop-backend-1-hm1j.onrender.com/api/contact', form, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Accept': 'application/json',

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/login.jpg'
+import img from '../data/login.jpg'
 
 function Register() {
   return (

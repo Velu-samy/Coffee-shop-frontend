@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaShoppingCart, FaUserCircle, FaSearch } from 'react-icons/fa';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
-import logo from '../assets/logo.png';
+import logo from '../data/logo.png';
 import { motion } from 'framer-motion';
 
 function Navbar() {

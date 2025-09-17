@@ -1,10 +1,10 @@
 import React from 'react'
-import food from '../assets/food.png'
-import fastfood from '../assets/fast-food.png'
-import vector from '../assets/vector.png'
+import food from '../data/food.png'
+import fastfood from '../data/fast-food.png'
+import vector from '../data/vector.png'
 import {motion} from 'framer-motion'
 
-import bean from '../assets/bean.png'
+import bean from '../data/bean.png'
 function Banner() {
   return (
     <div>
