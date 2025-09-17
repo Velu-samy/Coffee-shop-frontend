@@ -8,7 +8,7 @@ const Product = () => {
       useEffect(() => {
         const fetchProducts = async () => {
           try {
-            const response = await axios.get('https://cofffeeshop.gamer.gd/coffees')
+            const response = await axios.get('https://cofffeeshop.gamer.gd/api/coffees')
             setProducts(response.data)
           } catch (error) {
             console.error('Error fetching products:', error)

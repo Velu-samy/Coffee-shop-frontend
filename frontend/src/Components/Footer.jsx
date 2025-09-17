@@ -22,7 +22,7 @@ function Footer() {
       formData.append('name', name);
       formData.append('mail', mail);
 
-      const res = await axios.post('https://coffee-shop-backend-1-hm1j.onrender.com/api/news', formData, {
+      const res = await axios.post('https://cofffeeshop.gamer.gd/api/news', formData, {
         withCredentials: true,
         headers: {
           'Accept': 'application/json',
