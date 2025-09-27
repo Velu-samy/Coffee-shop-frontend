@@ -4,7 +4,6 @@ import fastfood from '../assets/fast-food.png'
 import vector from '../assets/Vector.png'
 import {motion} from 'framer-motion'
 
-import bean from '../assets/bean.png'
 function Banner() {
   return (
     <div>
