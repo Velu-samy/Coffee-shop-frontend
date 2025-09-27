@@ -1,6 +1,6 @@
 import React from 'react'
 import Navabr from '../Components/Navabr'
-import img from '../assets/frame.png'
+import img from '../assets/Frame.png'
 import {motion} from 'framer-motion'
 function Hero() {
   return (
