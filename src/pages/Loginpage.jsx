@@ -14,7 +14,7 @@ function Loginpage() {
     setSuccess('');
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/login', {
+      const response = await axios.post('https://coffee-shop-backend-2-vud1.onrender.com/api/login', {
         email,
         password,
       });

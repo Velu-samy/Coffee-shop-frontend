@@ -8,7 +8,7 @@ const Product = () => {
       useEffect(() => {
         const fetchProducts = async () => {
           try {
-            const response = await axios.get('http://127.0.0.1:8000/coffees')
+            const response = await axios.get('https://coffee-shop-backend-2-vud1.onrender.com/coffees')
             setProducts(response.data)
           } catch (error) {
             console.error('Error fetching products:', error)
@@ -28,7 +28,7 @@ const Product = () => {
           <div key={product.id} className='produt-card drop-shadow-md shadow-sm rounded-sm    h-72  flex justify-center flex-col items-center'>
             <div className='img-container w-56 border border-brown  rounded-md overflow-hidden ' >
               <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
+                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
                 className=' rounded-md'
                 alt={product.name}
               />

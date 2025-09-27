@@ -32,7 +32,7 @@ const Product = () => {
   useEffect(() => {
     const fetchColdCoffee = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:8000/Drink"); // Replace with your actual endpoint
+        const res = await fetch("https://coffee-shop-backend-2-vud1.onrender.com/Drink"); // Replace with your actual endpoint
         const product = await res.json();
         setCoffees(product);
         console.log("Cold Coffee:", product);
@@ -48,7 +48,7 @@ const Product = () => {
     useEffect(() => {
     const fetchColdCoffee = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:8000/Snacks"); // Replace with your actual endpoint
+        const res = await fetch("https://coffee-shop-backend-2-vud1.onrender.com/Snacks"); // Replace with your actual endpoint
         const product = await res.json();
         setCoffeed(product);
         console.log("Cold Coffee:", product);
@@ -124,7 +124,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
+                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
@@ -171,7 +171,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
+                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
@@ -218,7 +218,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
+                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 

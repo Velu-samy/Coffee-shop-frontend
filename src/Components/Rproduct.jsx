@@ -40,7 +40,7 @@ function Rproduct() {
             >
               <div className="h-40 overflow-hidden mb-3">
                 <img
-                  src={`http://127.0.0.1:8000/storage/${product.image}`}
+                  src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
                   alt={product.name}
                   className="w-full h-full object-cover rounded-md"
                   onError={(e) => (e.target.src = "/placeholder.jpg")}
