@@ -22,7 +22,7 @@ function Footer() {
       formData.append('name', name);
       formData.append('mail', mail);
 
-      const res = await axios.post('http://127.0.0.1:8000/api/news', formData, {
+      const res = await axios.post('https://coffee-shop-backend-2-vud1.onrender.com/api/news', formData, {
         withCredentials: true,
         headers: {
           'Accept': 'application/json',

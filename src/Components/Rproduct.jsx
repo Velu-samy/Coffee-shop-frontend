@@ -8,7 +8,7 @@ function Rproduct() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:8000/coffees");
+        const res = await fetch("https://coffee-shop-backend-2-vud1.onrender.com/coffees");
         const data = await res.json();
         setProducts(data);
       } catch (err) {

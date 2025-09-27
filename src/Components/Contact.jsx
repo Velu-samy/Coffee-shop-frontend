@@ -25,7 +25,7 @@ const Contact = () => {
     try {
       const token = localStorage.getItem('authToken');
 
-      const res = await axios.post('http://127.0.0.1:8000/api/contact', form, {
+      const res = await axios.post('https://coffee-shop-backend-2-vud1.onrender.com/api/contact', form, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Accept': 'application/json',

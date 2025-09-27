@@ -15,7 +15,7 @@ const Product = () => {
   useEffect(() => {
     const fetchColdCoffee = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:8000/coffees"); // Replace with your actual endpoint
+        const res = await fetch("https://coffee-shop-backend-2-vud1.onrender.com/coffees"); // Replace with your actual endpoint
         const product = await res.json();
         setCoffee(product);
         console.log("Cold Coffee:", product);

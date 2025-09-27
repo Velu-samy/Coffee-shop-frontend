@@ -45,7 +45,7 @@ function Address() {
 
     try {
       const response = await axios.post(
-        'http://localhost:8000/api/orders',
+        'https://coffee-shop-backend-2-vud1.onrender.com/api/orders',
         orderData,
         {
           headers: {
