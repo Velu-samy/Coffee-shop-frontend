@@ -1,7 +1,7 @@
 import React from 'react'
 import food from '../assets/food.png'
 import fastfood from '../assets/fast-food.png'
-import vector from '../assets/vector.png'
+import vector from '../assets/Vector.png'
 import {motion} from 'framer-motion'
 
 import bean from '../assets/bean.png'
