@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+ .navbar a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+/* Hover underline effect */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #704C32;
+  transition: width 0.3s ease;
+}
+
+.bg-col{
+    background-color: #704C32;
+}
+
+.contents{
+    background-color: black;
+}
+
+.card{
+    background-color: #E5E0DA;
+}
+ nav .icon:hover{
+    color:black;
+}
+
+
+.form-con{
+    box-shadow: 30px 10px 10px rgba(0,0,0,0.4);
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+
+
+
+.bg-color{
+    background:linear-gradient(to right, #E5E0DA 0%,#BEB0A6 92%);
+}
+
+
+
+.grp input{
+    background: transparent;
+  
+}
+
+.grp input::placeholder{
+    color:black
+}
+
+.img-c{
+
+    height:553px;
+}
+
+
+.img-c-r{
+
+    height:537px;
+}
+
+.bg-n{
+      background: radial-gradient(circle at center,#95836B 0%, #704C32  100%);
+    
+}
+
+.about-img{
+    width: 291px;
+}
+.text-color{
+    color: #704C32;
+}
+
+.bg-hero {
+    background: radial-gradient(circle at center,#95836B 0%, #704C32  100%);
+    height: 100vh;
+}
+
+nav{
+    box-shadow:0px 0px 5px 5px rgba(0,0,0,0.4);
+
+}
+.card-bg{
+    background-color: #704C32;
+}
+.content-container h1,p{
+    color: #704C32;
+}
+
+.feedback-card-bg{
+    background: linear-gradient(to top,#704C32  ,#FFFFFF  );
+}
+
+.footer-bg{
+     background: radial-gradient(circle at center,#95836B 0%, #704C32  100%);
+}
+
+.bg-nav{
+     background: radial-gradient(circle at center,#95836B 0%, #704C32  100%);
+}
+
+.right-container ul li {
+    margin-bottom:10px;
+}
+
+.bg-feedback{
+    background-image:url(../src//assets/Cup1.png) ;
+}
