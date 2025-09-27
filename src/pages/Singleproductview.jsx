@@ -19,7 +19,7 @@ function SingleProductView() {
 
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://127.0.0.1:8000/coffees/${id}`);
+        const response = await axios.get(`https://coffee-shop-backend-2-vud1.onrender.com/coffees/${id}`);
         setProduct(response.data);
       } catch (err) {
         setError('Failed to fetch product');
@@ -60,7 +60,7 @@ function SingleProductView() {
           <div className="contents-container flex p-7 mt-10 shadow-md gap-52 justify-center items-center">
             <div className="img-container w-1/2 pl-20  overflow-hidden">
               <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
+                src={product.image}
                 className="rounded-md"
                 alt={product.name}
               />

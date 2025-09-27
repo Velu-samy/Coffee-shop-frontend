@@ -124,7 +124,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
+                src={product.image}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
@@ -171,7 +171,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
+                src={product.image}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
@@ -218,7 +218,7 @@ const Product = () => {
               >
                <div className="w-40 overflow-y-hidden  h-32">
                  <img
-                src={`https://coffee-shop-backend-2-vud1.onrender.com/storage/${product.image}`}
+                src={product.image}
                 className=' rounded-md '
                 alt={product.name}
               />  </div> 
