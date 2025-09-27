@@ -16,7 +16,7 @@ function Singlesnacks() {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/Snacks/${id}`)
+      .get(`https://coffee-shop-backend-2-vud1.onrender.com/Snacks/${id}`)
       .then((response) => {
         setProduct(response.data);
         setLoading(false);
