@@ -1,6 +1,5 @@
 import React from 'react'
 import Navabr from '../Components/Navabr'
-import beans from '../assets/coffees.png'
 import img from '../assets/frame.png'
 import {motion} from 'framer-motion'
 function Hero() {
