@@ -73,7 +73,7 @@ function Footer() {
             <li><a href="#" className="hover:text-white">Home</a></li>
           </ul>
           <ul className="text-center lg:text-start">
-            <li>Block:2, Vijiya Street, Vadapalani,<br />Chennai-600026</li>
+            <li>Block:2, Gandhi Street, Vadapalani,<br />Chennai-600026</li>
             <li><a href="mailto:BrowniiCoffeeshop32@gmail.com">BrowniiCoffeeshop32@gmail.com</a></li>
             <li><a href="tel:+918766552">+91 8766552</a></li>
             <li><a href="tel:+918737735">+91 8737735</a></li>
