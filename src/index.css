@@ -127,6 +127,11 @@ nav{
      background: radial-gradient(circle at center,#95836B 0%, #704C32  100%);
 }
 
+
+.bg-border{
+      background: radial-gradient(circle at center,#95836B 0%, #704C32  100%);
+   
+}
 .right-container ul li {
     margin-bottom:10px;
 }

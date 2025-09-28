@@ -95,7 +95,7 @@ function Navbar() {
 
       {/* Mobile Menu Slide-In */}
       <div
-        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-slate-500 text-orange-50 transform transition-transform duration-300 ease-in-out z-50 ${
+        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-border text-orange-50 transform transition-transform duration-300 ease-in-out z-50 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
