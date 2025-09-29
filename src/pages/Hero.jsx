@@ -9,9 +9,9 @@ function Hero() {
      <Navabr/>
   {/*    <img src={beans}  className=' absolute left-3/4 top-52
       '  alt="" /> */}
-     <div className='lg:flex     absolute  top-11 px-10 gap-20    justify-around w-full items-center  ' >
-     <motion.div animate={{x:0,opacity:1}} transition={{duration:0.9,delay:0.9}} initial={{x:-50,opacity:0}} className='w-full    lg:w-1/2 flex justify-center'>
-<img src={img}   className='pt-10'    style={{width:'600px' ,margin:'10px'}}   alt="" />
+     <div className='lg:flex     absolute  top-11    gap-20    justify-around w-full items-center  ' >
+     <motion.div animate={{x:0,opacity:1}} transition={{duration:0.9,delay:0.9}} initial={{x:-50,opacity:0}} className='w-full        lg:w-1/2 flex justify-center'>
+<img src={img}   className='img-hero'   alt="" />
      </motion.div>
      <div className='w-full  lg:w-1/2 flex justify-center flex-col px-10'>
 <motion.div animate={{x:0,opacity:1}} transition={{duration:0.9,delay:1.5}} initial={{x:0,opacity:0}}>
@@ -19,7 +19,7 @@ function Hero() {
 
 </motion.div>
   <motion.div animate={{x:0,opacity:1}} transition={{duration:0.9,delay:2.0}} initial={{x:0,opacity:0}} >
-    <p className="mt-2 text-md text-center lg:text-start  text-white font-custom" >
+    <p className="mt-5 text-md text-center lg:text-start  text-white font-custom" >
  Discover handcrafted coffee, cozy ambiance, and a menu made with love.  
   Order online, explore our specials, or just drop by for your daily dose of comfort.
 

@@ -9,7 +9,7 @@ function Banner() {
     <div>
     
 <motion.div   whileInView={{y:0,opacity:1}} transition={{duration:0.9,delay:0.3}} initial={{y:-50,opacity:0}}>
-      <h1 className='text-center  mt-10 font-bold text-5xl'>Explore Our Alowishus</h1>
+      <h1 className='text-center  mt-20 font-bold text-5xl'>Explore Our Alowishus</h1>
 </motion.div>
 <motion.div whileInView={{y:0,opacity:1}} transition={{duration:0.9,delay:0.4}} initial={{y:0,opacity:0}}>
         <p className='text-center mt-3'> Discover handcrafted flavors, cozy vibes, and a menu that celebrates every craving—from sunrise bites to sweet indulgences.</p>

@@ -45,40 +45,46 @@ function Singlesnacks() {
   return (
     <div>
       <Navbar />
-      <div className="singleproductcontainer p-10 font-custom">
-
+      <div className="singleproductcontainer px-4 py-10 font-custom">
         {loading ? (
           <p className="text-center mt-10">Loading...</p>
         ) : error ? (
           <p className="text-center text-red-500 mt-10">{error}</p>
         ) : (
-          <div className="contents-container flex p-7 mt-10 gap-20 shadow-md justify-center items-center">
-            <div className="img-container w-1/2 pl-20">
+          <div className="contents-container flex flex-col lg:flex-row p-5 lg:p-10 mt-10 gap-10 lg:gap-20 shadow-md justify-center items-center">
+            
+            {/* Image Section */}
+            <div className="img-container w-full lg:w-1/2 overflow-hidden mb-6 lg:mb-0">
               <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
-                className="rounded-md"
+                src={`https://coffee-shop-backend-2-vud1.onrender.com/${product.image}`}
+                className="rounded-md w-full max-w-md mx-auto"
                 alt={product.name}
               />
             </div>
 
-            <div className="product-details w-1/2">
-              <h1 className="text-5xl font-bold mb-3">{product.name}</h1>
-              <p className="mb-5">{product.description}</p>
-              <p className="px-5 py-1 border-orange-300 border-2 font-serif inline-block shadow-sm rounded-sm">
+            {/* Product Details */}
+            <div className="product-details w-full lg:w-1/2 text-center lg:text-left">
+              <h1 className="text-3xl lg:text-5xl font-bold mb-3">{product.name}</h1>
+              <p className="mb-5 text-sm lg:text-base">{product.description}</p>
+              <p className="px-5 py-1 border-orange-300 border-2 font-serif inline-block shadow-sm rounded-sm mb-5">
                 ₹{product.price}
               </p>
 
-              <div className="flex mt-10 items-center gap-3">
-                <button onClick={decreaseQty} className="px-3 py-1 border border-black">−</button>
+              {/* Quantity Controls */}
+              <div className="flex justify-center lg:justify-start mt-6 items-center gap-3">
+                <button onClick={decreaseQty} className="px-3 py-1 border border-black hover:bg-slate-200">−</button>
                 <span className="px-4 py-1 border border-gray-300">{quantity}</span>
-                <button onClick={increaseQty} className="px-3 py-1 border border-black">+</button>
+                <button onClick={increaseQty} className="px-3 py-1 border border-black hover:bg-slate-200">+</button>
               </div>
 
-              <div className="mt-10 btn-container flex gap-3 w-96">
-                <button onClick={handleAddToCart} className="px-5 py-1 border border-black bg-green-500 text-white">
+              {/* Buttons */}
+              <div className="mt-8 btn-container flex flex-col sm:flex-row gap-4 sm:gap-10 w-full sm:w-96 mx-auto lg:mx-0">
+                <button onClick={handleAddToCart} className="px-5 py-2 border border-black bg-green-500 text-white hover:bg-green-600">
                   Add to Cart
                 </button>
-                <button className="px-5 py-1 border border-black">Fav</button>
+                <button className="px-5 py-2 border border-black hover:bg-black hover:text-white">
+                  Fav
+                </button>
               </div>
             </div>
           </div>
