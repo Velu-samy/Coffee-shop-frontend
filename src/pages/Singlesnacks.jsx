@@ -56,7 +56,7 @@ function Singlesnacks() {
             {/* Image Section */}
             <div className="img-container w-full lg:w-1/2 overflow-hidden mb-6 lg:mb-0">
               <img
-                src={`https://coffee-shop-backend-2-vud1.onrender.com/${product.image}`}
+                src={product.image}
                 className="rounded-md w-full max-w-md mx-auto"
                 alt={product.name}
               />
